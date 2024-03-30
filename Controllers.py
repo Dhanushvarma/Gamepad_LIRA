@@ -5,7 +5,7 @@ Standard gamepad mappings.
 Pulled in to Gamepad.py directly.
 """
 
-
+from robosuite.Gamepad_LIRA.Gamepad import Gamepad
 class PS3(Gamepad):
     fullName = 'PlayStation 3 controller'
 
